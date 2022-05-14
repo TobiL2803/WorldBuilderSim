@@ -17,7 +17,7 @@
 
 <script>
     function myFunction() {
-        doucment.getElementbyId("heading1").title = "worked"
+        getElementbyId("heading1").title = "worked"
     }
 
 
