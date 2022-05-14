@@ -9,7 +9,7 @@
     Welcome to the World Building Simulator!
 </h1>
 
-<button type="button" onclick="alert(wored)" id = "button">
+<button type="button" onclick= alert(wored) id = "button">
     Click Me!"
 </button>
 
