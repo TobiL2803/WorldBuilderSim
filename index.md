@@ -5,14 +5,23 @@
 
 <body>
 
-<h1>
+<h1 id = "heading1">
     Welcome to the World Building Simulator!
 </h1>
 
-<button type="button" onclick= alert(wored) id = "button">
+
+
+<button type="button" onclick="myFunction()" id = "button">
     Click Me!"
 </button>
 
+<script>
+    function myFunction() {
+        doucment.getElementbyId("heading1").title = "worked"
+    }
+
+
+</script>
 
 
 </body>
