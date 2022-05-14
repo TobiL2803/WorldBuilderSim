@@ -1,10 +1,5 @@
-## Welcome to the World Building Simulator
 
 
-
-<Weltenaufbau class="js"></Weltenaufbau>
-
-<!DOCTYPE html>
 <html>
 
 <body>
