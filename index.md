@@ -1,6 +1,4 @@
-<Weltenaufbau class="js"></Weltenaufbau>
 
-<!DOCTYPE html>
 <html>
 
 <body>
@@ -17,7 +15,7 @@
 
 <script>
     function myFunction() {
-        getElementbyId("heading1").title = "worked"
+        document.getElementbyId("heading1").title = "worked"
     }
 
 
