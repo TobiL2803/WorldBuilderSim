@@ -2,21 +2,29 @@
 
 
 
-```markdown
-Syntax highlighted code block
+<Weltenaufbau class="js"></Weltenaufbau>
 
-# Header 1
-## Header 2
-### Header 3
+<!DOCTYPE html>
+<html>
 
-- Bulleted
-- List
+<body>
 
-1. Numbered
-2. List
+<h1>
+    Welcome to the World Building Simulator!
+</h1>
 
-**Bold** and _Italic_ and `Code` text
+<button type="button" onclick=myFunction() id = "button">
+    Click Me!
+</button>
 
-[Link](url) and ![Image](src)
-```
+<script>
+    function myFunction() {
+        document.getElementById("button").innerHTML = "Hello World"
+    }
+
+</script>
+
+</body>
+
+</html>
 
