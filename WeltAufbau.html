@@ -9,19 +9,16 @@
     Welcome to the World Building Simulator!
 </h1>
 
-<button type="button" onclick=" alert('this has worked')">
+<button type="button" onclick=myFunction() id = "button">
     Click Me!
 </button>
 
 <script>
-    document.getElementById("demo").onclick = function() {myFunction()};
-
     function myFunction() {
-       document.getElementById("demo").innerHTML = "YOU CLICKED ME!";
+        document.getElementById("button").innerHTML = "Hello World"
     }
 
 </script>
-
 
 </body>
 
